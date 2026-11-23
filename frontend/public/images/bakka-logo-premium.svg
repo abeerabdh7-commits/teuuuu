@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" fill="none">
+  <defs>
+    <radialGradient id="badge" cx="0" cy="0" r="1" gradientTransform="matrix(0 134 -134 0 80 20)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#55317A"/>
+      <stop offset="1" stop-color="#170B29"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="30" x2="130" y1="35" y2="125" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF1C2"/>
+      <stop offset=".42" stop-color="#E9BD62"/>
+      <stop offset="1" stop-color="#A9682E"/>
+    </linearGradient>
+    <linearGradient id="page" x1="34" x2="126" y1="88" y2="132" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF5D9"/>
+      <stop offset="1" stop-color="#DFAE58"/>
+    </linearGradient>
+    <filter id="glow" width="1.5" height="1.5" x="-.25" y="-.25" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  <circle cx="80" cy="80" r="74" fill="url(#badge)" stroke="url(#gold)" stroke-width="2"/>
+  <circle cx="80" cy="80" r="66" stroke="#EBC66F" stroke-opacity=".27"/>
+  <path d="M25 67a58 58 0 0 1 11-27M135 67a58 58 0 0 0-11-27" stroke="#F2D58E" stroke-linecap="round" stroke-opacity=".6"/>
+  <path d="m80 27 53 24-53 24-53-24 53-24Z" fill="url(#gold)" stroke="#FFF0BE" stroke-linejoin="round" stroke-width="2"/>
+  <path d="m48 60 32 15 32-15v18c-18 12-46 12-64 0V60Z" fill="#D9A84E" stroke="#FFF0BE" stroke-linejoin="round" stroke-width="1.5"/>
+  <path d="M132 52v27" stroke="#FFE4A0" stroke-linecap="round" stroke-width="2"/>
+  <circle cx="132" cy="82" r="3" fill="#FFE4A0"/>
+  <path d="M80 94c-16-12-33-14-50-8v39c18-6 34-4 50 8V94Z" fill="url(#page)" stroke="#FFE9B0" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M80 94c16-12 33-14 50-8v39c-18-6-34-4-50 8V94Z" fill="url(#page)" stroke="#FFE9B0" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M80 95v38M40 97c11-3 22-1 32 5M120 97c-11-3-22-1-32 5M40 109c11-3 22-1 32 5M120 109c-11-3-22-1-32 5" stroke="#8E592E" stroke-linecap="round" stroke-opacity=".55" stroke-width="2"/>
+  <path d="M80 121c-8-8-13-16-14-25m11 16c-7-2-12-6-15-12m18 13c6-8 9-16 8-24m-8 17c7-3 11-7 13-13" stroke="url(#gold)" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <circle cx="80" cy="19" r="2" fill="#FFF1C2" filter="url(#glow)"/>
+</svg>
